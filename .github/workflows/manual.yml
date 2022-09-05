@@ -19,11 +19,7 @@ on:
       environment:
         description: 'Environment to run tests against'
         required: true
-        type: choice
-        options:
-        - dev
-        - stg
-        - prd
+        type: string
 
 jobs:
   log-the-inputs:
